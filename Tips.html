@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripverse - Travel Tips</title>
+    <link rel="shortcut icon" href="assets/image/tripverse_favicon.ico" type="image/x-icon" >
+    <link rel="stylesheet" href="style.css">
+    <style>
+        main {
+            justify-content: center;
+            gap: 22px;
+        }
+
+        .tips {
+            min-height: 65%;
+            max-width: 50%;
+            padding:0px 34px;
+            background-color: #C4E5FD;
+        display: flex;
+        flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 34px;
+            border: 1px solid rgb(41, 40, 40);
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px ;
+            margin-bottom: 8px;
+        }
+
+        .row{width: 100%;
+            height: 40%;
+            display: flex;
+            gap: 22px;
+        }
+        .tipBox {
+            padding: 6px;
+            background-color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            border: 2px solid black;
+            justify-content: center;
+            align-items: center;
+            width: 285px;
+            border-radius: 5px;
+            text-align: center;
+            gap: 18px;
+        }
+
+        .tipBox img {
+            width: 40px;
+        }
+
+        main h1{
+            color:rgb(255, 217, 0);
+             font-size: xxx-large;
+    text-align: center;
+    text-shadow: black 0px 3px 2px;
+        }
+
+        @media (max-width:1250px) {
+            .tips{
+    max-width: 90%;
+    padding: 22px 34px;
+            }
+        }
+
+        @media (max-width:715px) {
+            .row{
+                flex-direction: column;
+            }
+
+            .tipBox{
+                width: 100%;
+            }
+
+            main{
+                height: auto;
+            }
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div id="logo">
+            <img src="assets/image/logo.png" alt="">
+        </div>
+        <ul class="options">
+            <li class="option"><a href="index.html">Home</a></li>
+            <li class="option"><a href="Tips.html">Travel Tips</a></li>
+            <li class="option"><a href="about.html">About</a></li>
+        </ul>
+        <div class="menu"><img src="assets/image/menu.png" alt=""></div>
+    </nav>
+    <main>
+        <div class="back"></div>
+        
+        <div class="mobileopt">
+            <ul>
+                <li class="option"><a href="index.html">Home</a></li>
+                <li class="option"><a href="Tips.html">Travel Tips</a></li>
+                <li class="option"><a href="about.html">About</a></li>
+            </ul>
+        </div>
+
+        <h1>Tips for travel</h1>
+
+        <div class="tips">
+<div class="row">
+            <div class="tipBox">
+                <img src="assets/image/document.png" alt="">
+                <h3>Keep Documents Safe</h3>
+                <div class="tiptext">Carry digital and Physical copies of id/pasport.</div>
+            </div>
+
+            <div class="tipBox">
+                <img src="assets/image/water.webp" alt="">
+                <h3>Stay Hydrated</h3>
+                <div class="tiptext">Drink water,especially during flights.</div>
+            </div>
+
+            <div class="tipBox">
+                <img src="assets/image/map.png" alt="">
+                <h3>Offline Maps</h3>
+                <div class="tiptext">Download maps before travel.</div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="tipBox">
+                <img src="assets/image/credit.webp" alt="">
+                <h3>Money Matters</h3>
+                <div class="tiptext">Carry backup debit/credit cards</div>
+            </div>
+
+            <div class="tipBox">
+                <img src="assets/image/first aid.png" alt="">
+                <h3>Health Kit</h3>
+                <div class="tiptext">Carry basic medicines, bandages, and sanitizers.</div>
+            </div>
+
+            <div class="tipBox">
+                <img src="assets/image/bag.png" alt="">
+                <h3>Pack Lightly</h3>
+                <div class="tiptext">Take only what you need — extra weight will slow you down.</div>
+            </div>
+            </div>
+            </div>
+    </main>
+    <footer>
+        <div class="social">
+            <img src="assets/image/facebook.png" alt="">
+            <img src="assets/image/instagram (1).png" alt="">
+            <img src="assets/image/twitter.png" alt="">
+        </div>
+        <div>&copy;Tripverse private limited</div>
+        <div>Gmail:harshdhiman7817@gmail.com</div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

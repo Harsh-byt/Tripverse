@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripverse - About us</title>
+     <link rel="shortcut icon" href="assets/image/tripverse_favicon.ico" type="image/x-icon" >
+    <link rel="stylesheet" href="style.css">
+<style>
+
+    .about{
+        padding: 50px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+gap: 40px;
+    }
+
+    h1{
+        text-align: center;
+         text-shadow: black 2px 3px 2px;
+    color: rgb(241, 245, 5);
+         font-size: xxx-large;
+    }
+
+    p{
+        text-align: center;
+        text-shadow: 0px 0px 2px ;
+        font-size: x-large;
+    }
+
+    .featuresbox{
+        display: flex;
+        gap: 22px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .feature{
+        border: 1px solid rgb(76, 75, 75);
+        background-color: aliceblue;
+        padding: 6px;
+        border-radius: 8px;
+       height: 160px;
+       width: 226px;
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       font-weight: bolder;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .feature img{
+        width: 85px;
+    }
+
+    @media (max-width:645px) {
+        .featuresbox{
+            flex-direction: column;
+        }
+        main{
+            height: auto;
+        }
+    }
+</style>
+</head>
+<body>
+
+    <nav>
+        <div id="logo">
+            <img src="assets/image/logo.png" alt="">
+        </div>
+
+        <ul class="options">
+            <li class="option"><a href="index.html">Home</a></li>
+            <li class="option"><a href="Tips.html">Travel Tips</a></li>
+            <li class="option"><a href="about.html">About</a></li>
+        </ul>
+        <div class="menu"><img src="assets/image/menu.png" alt=""></div>
+    </nav>
+
+    <main>
+        <div class="back"></div>
+        <div class="mobileopt">
+             <ul>
+            <li class="option"><a href="index.html">Home</a></li>
+            <li class="option"><a href="Tips.html">Travel Tips</a></li>
+            <li class="option"><a href="about.html">About</a></li>
+        </ul>
+        </div>
+
+        <div class="about">
+            <div class="abouttrip"><h1>About Tripverse</h1>
+            <p>Tripverse helps travelers explore cities and countries worldwide with real-time weather, top attractions and travel tips-all in one place</p>
+            </div>
+            
+            <div class="mission"><h1>Our Mission</h1>
+<p>To make travel planning easier by giving you live data,stunning attractions and essential travel information instantly.</p>
+</div>
+
+        <div class="featuresbox">
+            <div class="feature">
+                <img src="assets/image/sun.png" alt="">Live weather Updates</div>
+        <div class="feature">
+            <img src="assets/image/image.png" alt="">Top attractions & photos</div>
+        <div class="feature">
+            <img src="assets/image/light-bulb.png" alt="">Travel Tips & Local Insights</div>
+        </div>
+        </div>
+    </main>
+ <footer>
+        <div class="social">
+            <img src="assets/image/facebook.png" alt="">
+            <img src="assets/image/instagram (1).png" alt="">
+            <img src="assets/image/twitter.png" alt="">
+        </div>
+        <div>&copy;Tripverse private limited</div>
+        <div>Gmail:harshdhiman7817@gmail.com</div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
